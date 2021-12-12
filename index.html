@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <link rel='stylesheet' href='./assets/style.css'/>
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header>
+        <button class='btn' id='high-scores-btn'>Click Here for High Scores</button>
+        <h4 id ='timer'></h4>
+    </header>
+    <div class='container'>
+        <div id = 'startQuiz'>
+            <h1 id='welcome'>Welcome to the Code Quiz!</h1>
+            <button class='btn' id='start-btn'>Click Me to Start!</button>
+        </div>
+
+        <div id = 'quiz' class='hide'>
+            <h2 id='question'>Question</h2>
+                <div id='answer-btns'></div>
+                <button id = 'next-btn' class='btn hide'>Next</button>
+                <button id = 'see-results-btn' class='btn hide'>See Results</button>
+
+        </div>
+
+        <div id='results' class='hide'>
+
+        </div>
+
+        <div id='high-scores' class='hide'> 
+
+        </div>
+    </div>
+    
+    <script src='./assets/script.js'></script>
+</body>
+</html>
